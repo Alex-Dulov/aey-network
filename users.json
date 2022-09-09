@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "login": "alex2000",
+      "firstName": "Alex",
+      "lastName": "Dulov",
+      "email": "alex.dulov@gmail.com",
+      "id": "001",
+      "status": {
+        "online": "off",
+        "rights": "user"
+      }
+    },
+    {
+      "login": "dirty-johny",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@gmail.com",
+      "id": "002",
+      "status": {
+        "online": "off",
+        "rights": "user"
+      }
+    },
+    {
+      "login": "mishutka",
+      "firstName": "Mariya",
+      "lastName": "Ivanova",
+      "email": "mari.nova@gmail.com",
+      "id": "003",
+      "status": {
+        "online": "off",
+        "rights": "user"
+      }
+    }
+  ]
+}
