@@ -1,7 +1,10 @@
 <template>
-  <h1>
-    Chats
-  </h1>
+  <div class="container">
+    <h1>
+      Chats
+    </h1>
+  </div>
+
 
 </template>
 
