@@ -13,12 +13,12 @@ export default createStore({
         }
     },
     actions: {
-        FETCH_USERS({commit}) {
-            return axios.get("/users.json")
-                .then((users) => {
-                    console.log(users);
-                    // commit("SET_USERS_TO_STORE", JSON.parse(users));
-                })
-        }
+        // FETCH_USERS({commit}) {
+        //     return axios.get("/users.json")
+        //         .then((users) => {
+        //             console.log(users);
+        //             // commit("SET_USERS_TO_STORE", JSON.parse(users));
+        //         })
+        // }
     }
 });

@@ -2,9 +2,7 @@
   <h1>
     Users
   </h1>
-  <aey-users-list v-for="user in users" :key="user.id" :users-data="user">
-
-  </aey-users-list>
+  <aey-users-list />
 </template>
 
 <script>
@@ -21,17 +19,17 @@ export default {
     return {}
   },
   computed: {
-    ...mapState([
-        "users"
-    ])
+    // ...mapState([
+    //     "users"
+    // ])
   },
   methods: {
-    ...mapActions([
-      "FETCH_USERS"
-    ])
+    // ...mapActions([
+    //   "FETCH_USERS"
+    // ])
   },
   mounted() {
-    this.FETCH_USERS();
+    // this.FETCH_USERS();
   }
 }
 </script>
