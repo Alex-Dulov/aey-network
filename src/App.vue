@@ -21,6 +21,11 @@
 
 <script>
 import aeyWrapper from "./components/aey-wrapper.vue";
+import { server2 } from "./mirage";
+
+if (process.env.NODE_ENV === "development") {
+  server2();
+}
 
 const ws = new WebSocket("ws://127.0.0.1:8888");
 
