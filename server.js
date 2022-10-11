@@ -1,3 +1,4 @@
+const http = require("http");
 const ws = require("ws");
 const { v4: uuidv4 } = require("uuid");
 const {writeFile, readFileSync, existsSync} = require("fs");
@@ -12,6 +13,13 @@ const wss = new ws.Server({
 }, () => {
     console.log(`Server started on ${PORT}`)
 });
+
+const serverHTTP = http.createServer((request, response) => {
+    response.write('---->');
+    response.end();
+});
+
+serverHTTP.listen(8081);
 
 // npx nodemon server.js
 wss.on("connection", (ws) => {
@@ -39,3 +47,6 @@ process.on("SIGINT", () => {
         process.exit();
     })
 });
+
+
+
