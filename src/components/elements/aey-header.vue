@@ -2,20 +2,17 @@
 <div class="header">
   <div class="header__container">
     <div class="header__item">
-      --
+      <a class="link link--bold link--white" href="/profile">AEY-Network</a>
     </div>
-
-    <aey-menu/>
-
   </div>
 </div>
 </template>
 
 <script>
-import AeyMenu from "@/components/elements/aey-menu";
+// import AeyMenu from "@/components/elements/aey-menu";
 export default {
   name: "aeyHeader",
-  components: {AeyMenu}
+  components: {}
 }
 </script>
 
@@ -26,7 +23,7 @@ export default {
   width: 100%;
   height: 64px;
   padding: 8px 24px;
-  background-color: #ddd;
+  background-color: #000000;
 }
 
 .header__container {

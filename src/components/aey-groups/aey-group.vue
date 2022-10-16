@@ -1,15 +1,12 @@
 <template>
-  <div class="container">
-    <h1>
-      Home
-    </h1>
-  </div>
-
+  <h2>
+    Group
+  </h2>
 </template>
 
 <script>
 export default {
-  name: "aey-home"
+  name: "aey-group"
 }
 </script>
 

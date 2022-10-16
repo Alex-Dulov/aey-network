@@ -49,7 +49,7 @@ export default {
 
 @media screen and (min-width: 800px) {
   .aey-wrapper {
-    grid-template-columns: 320px auto;
+    grid-template-columns: 240px auto;
     grid-template-areas:
     "header header"
     "sidebar body"

@@ -19,3 +19,24 @@ body {
     padding: 24px 16px;
     margin: 0 auto;
 }
+
+.link {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link--black {
+    color: #000000;
+}
+
+.link--white {
+    color: #ffffff;
+}
+
+.link--black:hover, .link--white:hover {
+    opacity: 0.6;
+}
+
+.link--bold {
+    font-weight: 700;
+}
